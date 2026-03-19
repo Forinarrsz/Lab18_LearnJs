@@ -76,7 +76,7 @@ console.log("10" - 5);
 const numArray = [1,2,3];
 numArray[0] = 10;
 console.log(numArray);
-numArray = [5,6,7];
+//numArray = [5,6,7];
 
 const persons = {name: "Alina", age: 19};
 
@@ -162,3 +162,10 @@ console.log(x1 + y1);
 console.log(x1 - y1);
 console.log(x1 * y1);
 console.log(x1 / y1);
+//practice
+let a2 = 5;
+let b2 = 3;
+let sum2 = a2 + b2;
+let product = a2 * b2;
+console.log('Сумма a2 и b2:', sum2);
+console.log('Произведение a2 и b2:', product);
