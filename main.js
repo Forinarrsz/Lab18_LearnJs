@@ -150,3 +150,15 @@ console.log(obj1 === obj3); // true
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 === arr2); // false (разные массивы)
+//practice
+let x1 = 10;
+let y1 = 2;
+console.log(x1 + y1);
+console.log(x1 - y1);
+console.log(x1 * y1);
+console.log(x1 / y1);
+x1 = "10";
+console.log(x1 + y1);
+console.log(x1 - y1);
+console.log(x1 * y1);
+console.log(x1 / y1);
