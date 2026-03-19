@@ -85,3 +85,23 @@ persons.city = "Moscow";
 console.log(persons);
 person = {name: "vasya"};
 
+console.log(typeof "txt");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof[]);
+console.log(typeof function () {});
+
+let numberX = null;
+console.log(numberX === null);
+
+//practice
+let newPrice;
+newPrice = 100;
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
+newPrice = "100 рублей";
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
