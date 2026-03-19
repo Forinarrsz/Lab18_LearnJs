@@ -130,3 +130,23 @@ console.log(true + 1);
 console.log(false + 1);
 console.log(null + 1);
 console.log(undefined + 1);
+
+console.log(5 == "5"); // true (нестрогое, с преобразованием)
+console.log(5 === "5"); // false (строгое, без преобразования)
+console.log(0 == false); // true
+console.log(0 === false); // false
+console.log(null == undefined); // true
+console.log(null === undefined); // false
+
+let obj1 = { name: "John" };
+let obj2 = { name: "John" };
+
+console.log(obj1 == obj2); // false
+console.log(obj1 === obj2); // false
+
+let obj3 = obj1; // obj3 ссылается на тот же объект
+console.log(obj1 === obj3); // true
+
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 === arr2); // false (разные массивы)
